@@ -15,7 +15,7 @@ namespace Quick_Quantum_Quest {
         return M(q);
     }
 
-    operation SampleRandomNumberInRange(max : Int) : Int {
+    operation SampleRandomNumberInRange(min : Int, max : Int) : Int {
         mutable output = 0;
         repeat {
             mutable bits = [];
@@ -23,14 +23,15 @@ namespace Quick_Quantum_Quest {
                 set bits += [GenerateRandomBit()];
             }
             set output = ResultArrayAsInt(bits);
-        } until (output <= max);
+        } until (output <= max and output >= 10);
         return output;
     }
 
     @EntryPoint()
     operation SampleRandumNumber() : Int {
         let max = 50;
-        Message($"Sampling a random number between 0 and {max}: ");
-        return SampleRandomNumberInRange(max);
+        let min = 10;
+        Message($"Sampling a random number between {min} and {max}: ");
+        return SampleRandomNumberInRange(min, max);
     }
 }
