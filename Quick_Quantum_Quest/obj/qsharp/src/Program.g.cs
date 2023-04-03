@@ -14,16 +14,12 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"SampleRandomNumberInRange\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"min\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":40}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"max\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":48},\"Item2\":{\"Line\":1,\"Column\":51}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"SampleRandomNumberInRange\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"SampleRandumNumber\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":29,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":30,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"SampleRandumNumber\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":30,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":8,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Quick_Quantum_Quest\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Chandler\\\\Documents\\\\GIT\\\\ACM_SRP\\\\Quick_Quantum_Quest\\\\Program.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
 #line hidden
 namespace Quick_Quantum_Quest
 {
-    [SourceLocation("C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs", OperationFunctor.Body, 8, 18)]
+    [SourceLocation("C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs", OperationFunctor.Body, 10, -1)]
     public partial class GenerateRandomBit : Operation<QVoid, Result>, ICallable
     {
         public GenerateRandomBit(IOperationFactory m) : base(m)
@@ -32,6 +28,7 @@ namespace Quick_Quantum_Quest
 
         String ICallable.Name => "GenerateRandomBit";
         String ICallable.FullName => "Quick_Quantum_Quest.GenerateRandomBit";
+        public static EntryPointInfo<QVoid, Result> Info => new EntryPointInfo<QVoid, Result>(typeof(GenerateRandomBit));
         protected Allocate Allocate__
         {
             get;
@@ -39,6 +36,18 @@ namespace Quick_Quantum_Quest
         }
 
         protected Release Release__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<String, QVoid> Message__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Diagnostics__DumpMachine
         {
             get;
             set;
@@ -56,20 +65,54 @@ namespace Quick_Quantum_Quest
             set;
         }
 
+        protected ICallable<Qubit, QVoid> Reset__
+        {
+            get;
+            set;
+        }
+
         public override Func<QVoid, Result> __Body__ => (__in__) =>
         {
 #line hidden
             {
-#line 10 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+#line 12 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
                 var q = Allocate__.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 12 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                    Microsoft__Quantum__Intrinsic__H.Apply(q);
+#line 13 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply("Initialized qubit:");
+#line 14 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
 #line 15 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                    return Microsoft__Quantum__Intrinsic__M.Apply(q);
+                    Message__.Apply(" ");
+#line 17 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Microsoft__Quantum__Intrinsic__H.Apply(q);
+#line 18 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply("Qubit after applying H:");
+#line 19 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 20 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply(" ");
+#line 23 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    var randomBit = Microsoft__Quantum__Intrinsic__M.Apply(q);
+#line 24 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply("Qubit after the measurement");
+#line 25 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 26 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply(" ");
+#line 27 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Reset__.Apply(q);
+#line 28 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply("Qubit after resetting:");
+#line 29 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 30 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply(" ");
+#line 31 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    return randomBit;
                 }
 #line hidden
                 catch
@@ -94,8 +137,11 @@ namespace Quick_Quantum_Quest
         {
             this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
             this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
+            this.Microsoft__Quantum__Diagnostics__DumpMachine = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpMachine<>));
             this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
             this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
+            this.Reset__ = this.__Factory__.Get<ICallable<Qubit, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Reset));
         }
 
         public override IApplyData __DataIn__(QVoid data) => data;
@@ -103,140 +149,6 @@ namespace Quick_Quantum_Quest
         public static System.Threading.Tasks.Task<Result> Run(IOperationFactory __m__)
         {
             return __m__.Run<GenerateRandomBit, QVoid, Result>(QVoid.Instance);
-        }
-    }
-
-    [SourceLocation("C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs", OperationFunctor.Body, 18, 31)]
-    public partial class SampleRandomNumberInRange : Operation<(Int64,Int64), Int64>, ICallable
-    {
-        public SampleRandomNumberInRange(IOperationFactory m) : base(m)
-        {
-        }
-
-        public class In : QTuple<(Int64,Int64)>, IApplyData
-        {
-            public In((Int64,Int64) data) : base(data)
-            {
-            }
-
-            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
-        }
-
-        String ICallable.Name => "SampleRandomNumberInRange";
-        String ICallable.FullName => "Quick_Quantum_Quest.SampleRandomNumberInRange";
-        protected ICallable<Int64, Int64> Microsoft__Quantum__Math__BitSizeI
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<QVoid, Result> GenerateRandomBit__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Result>, Int64> Microsoft__Quantum__Convert__ResultArrayAsInt
-        {
-            get;
-            set;
-        }
-
-        public override Func<(Int64,Int64), Int64> __Body__ => (__in__) =>
-        {
-            var (min,max) = __in__;
-#line 19 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-            var output = 0L;
-#line 20 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-            while (true)
-            {
-#line 21 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                var bits = new QArray<Result>();
-#line 22 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                foreach (var idxBit in new QRange(1L, Microsoft__Quantum__Math__BitSizeI.Apply(max)))
-#line hidden
-                {
-#line 23 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                    bits = QArray<Result>.Add(bits, new QArray<Result>(GenerateRandomBit__.Apply(QVoid.Instance)));
-                }
-
-#line 25 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                output = Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(bits?.Copy());
-                if (((output <= max) && (output >= 10L)))
-                {
-                    break;
-                }
-                else
-                {
-                }
-            }
-
-#line 27 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-            return output;
-        }
-
-        ;
-        public override void __Init__()
-        {
-            this.Microsoft__Quantum__Math__BitSizeI = this.__Factory__.Get<ICallable<Int64, Int64>>(typeof(global::Microsoft.Quantum.Math.BitSizeI));
-            this.GenerateRandomBit__ = this.__Factory__.Get<ICallable<QVoid, Result>>(typeof(GenerateRandomBit));
-            this.Microsoft__Quantum__Convert__ResultArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Result>, Int64>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsInt));
-        }
-
-        public override IApplyData __DataIn__((Int64,Int64) data) => new In(data);
-        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
-        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, Int64 min, Int64 max)
-        {
-            return __m__.Run<SampleRandomNumberInRange, (Int64,Int64), Int64>((min, max));
-        }
-    }
-
-    [SourceLocation("C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs", OperationFunctor.Body, 31, -1)]
-    public partial class SampleRandumNumber : Operation<QVoid, Int64>, ICallable
-    {
-        public SampleRandumNumber(IOperationFactory m) : base(m)
-        {
-        }
-
-        String ICallable.Name => "SampleRandumNumber";
-        String ICallable.FullName => "Quick_Quantum_Quest.SampleRandumNumber";
-        public static EntryPointInfo<QVoid, Int64> Info => new EntryPointInfo<QVoid, Int64>(typeof(SampleRandumNumber));
-        protected ICallable<String, QVoid> Message__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<(Int64,Int64), Int64> SampleRandomNumberInRange__
-        {
-            get;
-            set;
-        }
-
-        public override Func<QVoid, Int64> __Body__ => (__in__) =>
-        {
-#line 32 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-            var max = 50L;
-#line 33 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-            var min = 10L;
-#line 34 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-            Message__.Apply(String.Format("Sampling a random number between {0} and {1}: ", min, max));
-#line 35 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-            return SampleRandomNumberInRange__.Apply((min, max));
-        }
-
-        ;
-        public override void __Init__()
-        {
-            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
-            this.SampleRandomNumberInRange__ = this.__Factory__.Get<ICallable<(Int64,Int64), Int64>>(typeof(SampleRandomNumberInRange));
-        }
-
-        public override IApplyData __DataIn__(QVoid data) => data;
-        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
-        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__)
-        {
-            return __m__.Run<SampleRandumNumber, QVoid, Int64>(QVoid.Instance);
         }
     }
 }
