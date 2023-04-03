@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qgYTskDHn/ivFS0lCMMQzlBW6EY1bawlAMF+BBzQqSwoz65fi4BHFiHdVkmVfqtq0oircaoW3NTta5YdBdlXiQ==",
+  "dgSpecHash": "mQRbUuSIigDMfKnPc2X+qwpv8NkoIRYBeF2SVVIpYiZTVUsO3UWHqQ5iQi+Ed/bMaBpFUCSo/fR7WC4UFm3IHA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj",
+  "projectFilePath": "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Chandler\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Chandler\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

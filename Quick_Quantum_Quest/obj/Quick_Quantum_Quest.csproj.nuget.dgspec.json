@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj": {}
+    "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj": {
+    "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj",
+        "projectUniqueName": "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj",
         "projectName": "Quick_Quantum_Quest",
-        "projectPath": "c:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj",
+        "projectPath": "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Quick_Quantum_Quest.csproj",
         "packagesPath": "C:\\Users\\Chandler\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\obj\\",
+        "outputPath": "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Chandler\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -74,7 +74,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
