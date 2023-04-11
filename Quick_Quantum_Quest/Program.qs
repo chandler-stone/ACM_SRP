@@ -43,8 +43,8 @@ namespace Quick_Quantum_Quest {
             set results += [M(q)];
             DumpMachine();
         }
+        Message(" ");
         Message("Your random number is: ");
-        Message("Measuring the qubits collapses the superposition to a basis state.");
         DumpMachine();
         return BoolArrayAsInt(ResultArrayAsBoolArray(results));
     }

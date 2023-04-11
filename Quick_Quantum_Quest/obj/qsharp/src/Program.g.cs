@@ -65,12 +65,6 @@ namespace Quick_Quantum_Quest
             set;
         }
 
-        protected ICallable Microsoft__Quantum__Arrays__ForEach
-        {
-            get;
-            set;
-        }
-
         protected ICallable<Qubit, Result> Microsoft__Quantum__Intrinsic__M
         {
             get;
@@ -106,13 +100,27 @@ namespace Quick_Quantum_Quest
 #line 39 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
                     Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
 #line 40 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                    var result = (IQArray<Result>)Microsoft__Quantum__Arrays__ForEach.Apply<IQArray<Result>>((Microsoft__Quantum__Intrinsic__M, Qubits));
+                    var results = new QArray<Result>();
 #line 41 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                    Message__.Apply("Measuring the qubits collapses the superposition to a basis state.");
+                    foreach (var q in Qubits)
+#line hidden
+                    {
 #line 42 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+                        Message__.Apply(" ");
 #line 43 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
-                    return Microsoft__Quantum__Convert__BoolArrayAsInt.Apply(Microsoft__Quantum__Convert__ResultArrayAsBoolArray.Apply(result));
+                        results = QArray<Result>.Add(results, new QArray<Result>(Microsoft__Quantum__Intrinsic__M.Apply(q)));
+#line 44 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                        Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+                    }
+
+#line 46 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply(" ");
+#line 47 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Message__.Apply("Your random number is: ");
+#line 48 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 49 "C:\\Users\\Chandler\\Documents\\GIT\\ACM_SRP\\Quick_Quantum_Quest\\Program.qs"
+                    return Microsoft__Quantum__Convert__BoolArrayAsInt.Apply(Microsoft__Quantum__Convert__ResultArrayAsBoolArray.Apply(results?.Copy()));
                 }
 #line hidden
                 catch
@@ -141,7 +149,6 @@ namespace Quick_Quantum_Quest
             this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
             this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
             this.Microsoft__Quantum__Diagnostics__DumpMachine = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpMachine<>));
-            this.Microsoft__Quantum__Arrays__ForEach = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Arrays.ForEach<,>));
             this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
             this.Microsoft__Quantum__Convert__BoolArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Boolean>, Int64>>(typeof(global::Microsoft.Quantum.Convert.BoolArrayAsInt));
             this.Microsoft__Quantum__Convert__ResultArrayAsBoolArray = this.__Factory__.Get<ICallable<IQArray<Result>, IQArray<Boolean>>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsBoolArray));
